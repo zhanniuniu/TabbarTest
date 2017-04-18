@@ -10,7 +10,7 @@
 
 #define Color(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
-@interface TabbarFour ()
+@interface TabbarFour ()<UITabBarControllerDelegate>
 
 @end
 
@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    self.delegate = self;
     
     UIViewController *c1=[[UIViewController alloc]init];
     c1.view.backgroundColor=[UIColor grayColor];
@@ -103,11 +103,24 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+
 #pragma mark   返回
 
 - (void)backbuttonPress
 {
     [self dismissViewControllerAnimated:NO completion:nil];
 }
+
+#pragma mark tabbar
+
+-(void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+{
+    NSLog(@"### %@",viewController.tabBarItem.title);
+    
+    
+}
+
 
 @end
