@@ -19,6 +19,7 @@
 		30D467E21EA06B3D005EF140 /* TabbarTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D467E11EA06B3D005EF140 /* TabbarTwo.m */; };
 		30D467E51EA06BDA005EF140 /* TabbarThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D467E41EA06BDA005EF140 /* TabbarThree.m */; };
 		30D467E81EA06BF2005EF140 /* TabbarFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D467E71EA06BF2005EF140 /* TabbarFour.m */; };
+		30D9BF2B1EF76DE000F354B1 /* VVgaojiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9BF2A1EF76DE000F354B1 /* VVgaojiVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		30D467E41EA06BDA005EF140 /* TabbarThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarThree.m; sourceTree = "<group>"; };
 		30D467E61EA06BF2005EF140 /* TabbarFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarFour.h; sourceTree = "<group>"; };
 		30D467E71EA06BF2005EF140 /* TabbarFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarFour.m; sourceTree = "<group>"; };
+		30D9BF291EF76DE000F354B1 /* VVgaojiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVgaojiVC.h; sourceTree = "<group>"; };
+		30D9BF2A1EF76DE000F354B1 /* VVgaojiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVgaojiVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				30D467E41EA06BDA005EF140 /* TabbarThree.m */,
 				30D467E61EA06BF2005EF140 /* TabbarFour.h */,
 				30D467E71EA06BF2005EF140 /* TabbarFour.m */,
+				30D9BF291EF76DE000F354B1 /* VVgaojiVC.h */,
+				30D9BF2A1EF76DE000F354B1 /* VVgaojiVC.m */,
 				30D467B31EA061E1005EF140 /* Main.storyboard */,
 				30D467B61EA061E1005EF140 /* Assets.xcassets */,
 				30D467B81EA061E1005EF140 /* LaunchScreen.storyboard */,
@@ -298,6 +303,7 @@
 				30D467E51EA06BDA005EF140 /* TabbarThree.m in Sources */,
 				30D467AF1EA061E1005EF140 /* AppDelegate.m in Sources */,
 				30D467E81EA06BF2005EF140 /* TabbarFour.m in Sources */,
+				30D9BF2B1EF76DE000F354B1 /* VVgaojiVC.m in Sources */,
 				30D467E21EA06B3D005EF140 /* TabbarTwo.m in Sources */,
 				30D467AC1EA061E1005EF140 /* main.m in Sources */,
 			);
@@ -533,6 +539,7 @@
 				30D467D61EA061E1005EF140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30D467D71EA061E1005EF140 /* Build configuration list for PBXNativeTarget "TabbarTestTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +548,7 @@
 				30D467D91EA061E1005EF140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30D467DA1EA061E1005EF140 /* Build configuration list for PBXNativeTarget "TabbarTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +557,7 @@
 				30D467DC1EA061E1005EF140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
